@@ -8,6 +8,8 @@
 
 #import "SDZViewController.h"
 
+#import <BinaryOCCode/SDZOCClass.h>
+
 @interface SDZViewController ()
 
 @end
@@ -17,7 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [[SDZOCClass new] sayHello];
 }
 
 - (void)didReceiveMemoryWarning

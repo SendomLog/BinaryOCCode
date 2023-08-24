@@ -1,0 +1,16 @@
+PODS:
+  - BinaryOCCode (0.1.0)
+
+DEPENDENCIES:
+  - BinaryOCCode (from `../`)
+
+EXTERNAL SOURCES:
+  BinaryOCCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BinaryOCCode: 9112af6d7f089d1ccb3932ebdf6ddcae4b768930
+
+PODFILE CHECKSUM: cfd71be30039da820feb14c6199c56ff70eddcc3
+
+COCOAPODS: 1.11.3
